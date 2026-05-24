@@ -1,0 +1,152 @@
+/* ESTILOS GENERALES */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+h2{
+    color: darkblue;
+}
+
+
+
+/* ========================= */
+/* EJERCICIO 1 */
+/* ========================= */
+
+p > em{
+    color: blue;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+
+
+/* ========================= */
+/* EJERCICIO 2 */
+/* ========================= */
+
+div em{
+    color: green;
+    font-style: italic;
+    background-color: red;
+}
+
+
+
+/* ========================= */
+/* EJERCICIO 3 */
+/* ========================= */
+
+p + em{
+    color: green;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+
+
+/* ========================= */
+/* EJERCICIO 4 */
+/* ========================= */
+
+a:link{
+    color: navy;
+    text-decoration: none;
+}
+
+a:visited{
+    color: gray;
+}
+
+a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+a:focus{
+    outline: 2px dashed blue;
+}
+
+a:active{
+    color: red;
+}
+
+.llamativo:link{
+    color: white;
+    background-color: purple;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.llamativo:hover{
+    background-color: hotpink;
+    color: black;
+}
+
+.personal{
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.personal:hover{
+    background-color: black;
+    color: yellow;
+}
+
+
+
+/* ========================= */
+/* EJERCICIO 5 */
+/* ========================= */
+
+.calculadora{
+    width: 240px;
+    background-color: lightgray;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.pantalla{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.boton{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+    margin: 5px;
+}
+
+
+
+/* ========================= */
+/* EJERCICIO 6 */
+/* ========================= */
+
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.galeria img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
